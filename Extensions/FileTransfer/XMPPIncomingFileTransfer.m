@@ -65,6 +65,9 @@ NSString *const XMPPIncomingFileTransferErrorDomain = @"XMPPIncomingFileTransfer
 
 @implementation XMPPIncomingFileTransfer
 
+- (XMPPJID *)senderJID{
+    return _senderJID;
+}
 
 #pragma mark - Lifecycle
 
